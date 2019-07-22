@@ -13,7 +13,7 @@
         </q-btn>
 
         <q-toolbar-title>
-          Quasar App
+          Quasar Web API's
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -34,6 +34,15 @@
           <q-item-section>
             <q-item-label>Bateria</q-item-label>
             <q-item-label caption>Status da bateria</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable to="/vibration" exact>
+          <q-item-section avatar>
+            <q-icon name="vibration" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Vibração</q-item-label>
+            <q-item-label caption>Api de vibração</q-item-label>
           </q-item-section>
         </q-item>
       </q-list>
