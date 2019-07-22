@@ -27,7 +27,7 @@
     >
       <q-list>
         <q-item-label header>Essential Links</q-item-label>
-        <q-item clickable to="/baterry" exact>
+        <q-item clickable to="/battery" exact>
           <q-item-section avatar>
             <q-icon name="battery_charging_full" />
           </q-item-section>
