@@ -1,6 +1,6 @@
 # Quasar Web Api's (quasar-web-apis)
 
-Esse é um projeto para auxíliar e estimular desenvolvedores web a conhecer as poderoas Web Api's.
+Esse é um projeto para auxíliar e estimular desenvolvedores web a conhecer as poderosas Web Api's.
 É um agrupamento de vários exemplos de Web Api's usando juntamente com o Vue.js.
 Para uma melhor organização, designer e performance, utilizou-se o Quasar Framework.
 

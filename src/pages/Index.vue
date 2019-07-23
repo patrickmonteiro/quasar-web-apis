@@ -36,6 +36,10 @@ export default {
           icon: 'battery_charging_full',
           route: 'battery'
         },
+        { label: 'Bluetooth',
+          icon: 'bluetooth',
+          route: 'bluetooth'
+        },
         { label: 'Vibração',
           icon: 'vibration',
           route: 'vibration'

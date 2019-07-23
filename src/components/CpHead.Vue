@@ -9,6 +9,7 @@
         Compatibilidade:
           <q-icon name="fab fa-chrome" class="q-ml-xs" size="1rem" v-if="chrome" />
           <q-icon name="fab fa-firefox" class="q-ml-xs" size="1rem" v-if="firefox" />
+          <q-icon name="fab fa-opera" class="q-ml-xs" size="1rem" v-if="opera" />
           <q-separator />
       </div>
     </div>
@@ -34,6 +35,11 @@ export default {
       default: false
     },
     firefox: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    opera: {
       type: Boolean,
       required: false,
       default: false
