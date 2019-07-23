@@ -49,7 +49,9 @@ module.exports = function (ctx) {
         'QBadge',
         'QList',
         'QItem',
-        'QItemSection'
+        'QItemSection',
+        'QImg',
+        'QSeparator'
       ],
 
       directives: [

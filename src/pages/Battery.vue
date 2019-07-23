@@ -1,19 +1,6 @@
 <template>
 <q-page class="container">
-  <div class="row q-px-sm">
-    <div class="text-h6 col-6">
-      <q-icon name="battery_charging_full" /> Bateria
-    </div>
-    <div class="text-subtitle2 col-6 text-right">
-      Compatibilidade:
-      <!-- <q-badge color="green-8" class="text-uppercase"> -->
-        <q-icon name="fab fa-chrome" class="" size="1rem" />
-      <!-- </q-badge> -->
-      <!-- <q-badge color="green-8" class="text-uppercase"> -->
-        <q-icon name="fab fa-firefox" class="" size="1rem" />
-      <!-- </q-badge> -->
-    </div>
-  </div>
+  <cp-head title="Bateria" icon="battery_charging_full" :chrome="true" :firefox="true"></cp-head>
   <div class="row text-subtitle2" :key="componentKey">
     <div class="col-12">
       <q-list bordered separator>
@@ -68,8 +55,12 @@
 </template>
 
 <script>
+import CpHead from 'components/CpHead'
 export default {
   name: 'PageBaterry',
+  components: {
+    CpHead
+  },
   data () {
     return {
       batteryInfos: {
