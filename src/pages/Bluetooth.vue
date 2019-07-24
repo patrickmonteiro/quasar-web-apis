@@ -10,7 +10,7 @@
           label="Testar Blueetooth"
           class="full-width"
           size="lg"
-          @click="vibration()"
+          @click="bluetooth()"
           :disable="!enableBluetooth" />
       </div>
     </div>
@@ -38,7 +38,7 @@ export default {
     }
   },
   methods: {
-    vibration () {
+    bluetooth () {
       window.navigator.bluetooth.requestDevice({
         acceptAllDevices: true
       })

@@ -40,6 +40,10 @@ export default {
           icon: 'bluetooth',
           route: 'bluetooth'
         },
+        { label: 'Camera',
+          icon: 'camera_alt',
+          route: 'camera'
+        },
         { label: 'Vibração',
           icon: 'vibration',
           route: 'vibration'
