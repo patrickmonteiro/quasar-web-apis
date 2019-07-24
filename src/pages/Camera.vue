@@ -1,6 +1,10 @@
 <template>
   <q-page class="container">
-    <cp-head title="Bluetooth" icon="bluetooth" :chrome="true" :opera="true"></cp-head>
+    <cp-head title="Bluetooth" icon="bluetooth"
+      :chrome="true"
+      :firefox="true"
+      :opera="true"
+      :safari="true"></cp-head>
     <div class="row">
       <div class="col-12 text-center">
         <video autoplay width="230rem" ref="videoplay"></video>
@@ -8,7 +12,7 @@
     </div>
     <div class="row justify-center q-pt-xs" >
       <div class="col-10 text-center">
-        <div class="text-h6 text-negative" v-if="!enableCamera">Your browser does not support the Vibration API</div>
+        <div class="text-h6 text-negative" v-if="!enableCamera">Your browser does not support the Camera API</div>
         <q-btn
           :color="enableCamera ? 'primary' : 'grey-6'"
           icon="camera"
@@ -19,7 +23,7 @@
           :disable="!enableCamera" />
       </div>
       <div class="col-12 text-center q-pt-sm">
-        <img src="" ref="imgTakePhoto" width="300" />
+        <img src="" ref="imgTakePhoto" width="230rem" />
       </div>
     </div>
   </q-page>
