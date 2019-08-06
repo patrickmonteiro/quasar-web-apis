@@ -11,6 +11,8 @@
           <q-icon name="fab fa-firefox" class="q-ml-xs" size="1rem" v-if="firefox" />
           <q-icon name="fab fa-opera" class="q-ml-xs" size="1rem" v-if="opera" />
           <q-icon name="fab fa-safari" class="q-ml-xs" size="1rem" v-if="safari" />
+          <q-icon name="fab fa-android" class="q-ml-xs" size="1rem" v-if="android" />
+          <q-icon name="fab fa-apple" class="q-ml-xs" size="1rem" v-if="apple" />
           <q-separator />
       </div>
     </div>
@@ -46,6 +48,16 @@ export default {
       default: false
     },
     safari: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    android: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    apple: {
       type: Boolean,
       required: false,
       default: false

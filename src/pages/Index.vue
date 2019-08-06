@@ -44,6 +44,10 @@ export default {
           icon: 'camera_alt',
           route: 'camera'
         },
+        { label: 'Geolocalização',
+          icon: 'place',
+          route: 'geolocation'
+        },
         { label: 'Vibração',
           icon: 'vibration',
           route: 'vibration'

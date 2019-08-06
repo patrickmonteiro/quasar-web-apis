@@ -18,11 +18,6 @@ npm install
 quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
-
 ### Gerando build para produção
 ```bash
 quasar build
