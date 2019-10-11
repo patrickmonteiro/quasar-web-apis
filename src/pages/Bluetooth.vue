@@ -43,7 +43,7 @@ export default {
         acceptAllDevices: true
       })
         .then((teste) => {
-          console.log(teste)
+          console.log(teste) // eslint-disable-line no-console
         })
     }
   }

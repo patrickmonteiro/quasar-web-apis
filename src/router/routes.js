@@ -9,7 +9,8 @@ const routes = [
       { path: '/bluetooth', name: 'bluetooth', component: () => import('pages/Bluetooth.vue') },
       { path: '/camera', name: 'camera', component: () => import('pages/Camera.vue') },
       { path: '/geolocation', name: 'geolocation', component: () => import('pages/Geolocation.vue') },
-      { path: '/vibration', name: 'vibration', component: () => import('pages/Vibration.vue') }
+      { path: '/vibration', name: 'vibration', component: () => import('pages/Vibration.vue') },
+      { path: '/notification', name: 'notification', component: () => import('pages/Notification.vue') }
     ]
   }
 ]

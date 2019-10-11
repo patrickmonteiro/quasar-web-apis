@@ -51,6 +51,10 @@ export default {
         { label: 'Vibração',
           icon: 'vibration',
           route: 'vibration'
+        },
+        { label: 'Notificação',
+          icon: 'notification_important',
+          route: 'notification'
         }
       ]
     }

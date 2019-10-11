@@ -60,7 +60,7 @@ export default {
           this.track = mediaStream.getVideoTracks()[0]
           this.imageCapture = new ImageCapture(this.track)
         })
-        .catch(error => console.log(error))
+        .catch(error => console.log(error)) // eslint-disable-line no-console
     },
     onTakePhotoButtonClick () {
       this.imageCapture.takePhoto()
@@ -72,7 +72,7 @@ export default {
             this.$refs.imgTakePhoto.src = reader.result
           }
         })
-        .catch(error => console.log(error))
+        .catch(error => console.log(error)) // eslint-disable-line no-console
     }
   },
   destroyed () {
