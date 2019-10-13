@@ -55,6 +55,10 @@ export default {
         { label: 'Notificação',
           icon: 'notification_important',
           route: 'notification'
+        },
+        { label: 'Rede',
+          icon: 'wifi',
+          route: 'rede'
         }
       ]
     }
