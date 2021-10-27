@@ -12,7 +12,7 @@
     </div>
     <div class="row justify-center q-pt-xs" >
       <div class="col-10 text-center">
-        <div class="text-h6 text-negative" v-if="!enableCamera">Your browser does not support the Camera API</div>
+        <div class="text-h6 text-negative" v-if="!enableCamera">Seu navegador não suporta a API da câmera</div>
         <q-btn
           :color="enableCamera ? 'primary' : 'grey-6'"
           icon="camera"

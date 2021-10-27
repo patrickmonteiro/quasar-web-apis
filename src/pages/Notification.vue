@@ -34,21 +34,11 @@ export default {
   },
   methods: {
     notification () {
-      Notification.requestPermission((status) => {
+      Notification.requestPermission(() => {
         if (Notification && Notification.permission === 'granted') {
           let n = new Notification('Notificação', { body: this.text })
           console.log(n) // eslint-disable-line no-console
         }
-      })
-    },
-    errorPosition () {
-      this.$q.notify({
-        position: 'top',
-        timeout: 2500,
-        color: 'negative',
-        textColor: 'white',
-        actions: [{ icon: 'close', color: 'white' }],
-        message: 'Não foi possível obter a localização.'
       })
     }
   }
