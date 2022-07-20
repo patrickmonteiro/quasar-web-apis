@@ -10,7 +10,7 @@ const routes = [
       { path: '/camera', name: 'camera', component: () => import('pages/Camera.vue') },
       { path: '/geolocation', name: 'geolocation', component: () => import('pages/Geolocation.vue') },
       { path: '/vibration', name: 'vibration', component: () => import('pages/Vibration.vue') },
-      { path: '/notification', name: 'notification', component: () => import('pages/Notification.vue') }
+      { path: '/rede', name: 'rede', component: () => import('pages/Network.vue') }
     ]
   }
 ]
